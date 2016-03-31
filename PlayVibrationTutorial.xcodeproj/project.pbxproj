@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62539E7B1CABC40000BFB47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E7A1CABC40000BFB47F /* AppDelegate.swift */; };
+		62539E7D1CABC40000BFB47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E7C1CABC40000BFB47F /* ViewController.swift */; };
+		62539E801CABC40000BFB47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62539E7E1CABC40000BFB47F /* Main.storyboard */; };
+		62539E821CABC40000BFB47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62539E811CABC40000BFB47F /* Assets.xcassets */; };
+		62539E851CABC40000BFB47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62539E831CABC40000BFB47F /* LaunchScreen.storyboard */; };
+		62539E901CABC40000BFB47F /* PlayVibrationTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E8F1CABC40000BFB47F /* PlayVibrationTutorialTests.swift */; };
+		62539E9B1CABC40000BFB47F /* PlayVibrationTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62539E9A1CABC40000BFB47F /* PlayVibrationTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62539E8C1CABC40000BFB47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62539E6F1CABC40000BFB47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62539E761CABC40000BFB47F;
+			remoteInfo = PlayVibrationTutorial;
+		};
+		62539E971CABC40000BFB47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62539E6F1CABC40000BFB47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62539E761CABC40000BFB47F;
+			remoteInfo = PlayVibrationTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62539E771CABC40000BFB47F /* PlayVibrationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayVibrationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E7A1CABC40000BFB47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62539E7C1CABC40000BFB47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62539E7F1CABC40000BFB47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62539E811CABC40000BFB47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62539E841CABC40000BFB47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62539E861CABC40000BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62539E8B1CABC40000BFB47F /* PlayVibrationTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVibrationTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E8F1CABC40000BFB47F /* PlayVibrationTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVibrationTutorialTests.swift; sourceTree = "<group>"; };
+		62539E911CABC40000BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62539E961CABC40000BFB47F /* PlayVibrationTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayVibrationTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62539E9A1CABC40000BFB47F /* PlayVibrationTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVibrationTutorialUITests.swift; sourceTree = "<group>"; };
+		62539E9C1CABC40000BFB47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62539E741CABC40000BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E881CABC40000BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E931CABC40000BFB47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62539E6E1CABC40000BFB47F = {
+			isa = PBXGroup;
+			children = (
+				62539E791CABC40000BFB47F /* PlayVibrationTutorial */,
+				62539E8E1CABC40000BFB47F /* PlayVibrationTutorialTests */,
+				62539E991CABC40000BFB47F /* PlayVibrationTutorialUITests */,
+				62539E781CABC40000BFB47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62539E781CABC40000BFB47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62539E771CABC40000BFB47F /* PlayVibrationTutorial.app */,
+				62539E8B1CABC40000BFB47F /* PlayVibrationTutorialTests.xctest */,
+				62539E961CABC40000BFB47F /* PlayVibrationTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62539E791CABC40000BFB47F /* PlayVibrationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				62539E7A1CABC40000BFB47F /* AppDelegate.swift */,
+				62539E7C1CABC40000BFB47F /* ViewController.swift */,
+				62539E7E1CABC40000BFB47F /* Main.storyboard */,
+				62539E811CABC40000BFB47F /* Assets.xcassets */,
+				62539E831CABC40000BFB47F /* LaunchScreen.storyboard */,
+				62539E861CABC40000BFB47F /* Info.plist */,
+			);
+			path = PlayVibrationTutorial;
+			sourceTree = "<group>";
+		};
+		62539E8E1CABC40000BFB47F /* PlayVibrationTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				62539E8F1CABC40000BFB47F /* PlayVibrationTutorialTests.swift */,
+				62539E911CABC40000BFB47F /* Info.plist */,
+			);
+			path = PlayVibrationTutorialTests;
+			sourceTree = "<group>";
+		};
+		62539E991CABC40000BFB47F /* PlayVibrationTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62539E9A1CABC40000BFB47F /* PlayVibrationTutorialUITests.swift */,
+				62539E9C1CABC40000BFB47F /* Info.plist */,
+			);
+			path = PlayVibrationTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62539E761CABC40000BFB47F /* PlayVibrationTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539E9F1CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorial" */;
+			buildPhases = (
+				62539E731CABC40000BFB47F /* Sources */,
+				62539E741CABC40000BFB47F /* Frameworks */,
+				62539E751CABC40000BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayVibrationTutorial;
+			productName = PlayVibrationTutorial;
+			productReference = 62539E771CABC40000BFB47F /* PlayVibrationTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62539E8A1CABC40000BFB47F /* PlayVibrationTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539EA21CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorialTests" */;
+			buildPhases = (
+				62539E871CABC40000BFB47F /* Sources */,
+				62539E881CABC40000BFB47F /* Frameworks */,
+				62539E891CABC40000BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62539E8D1CABC40000BFB47F /* PBXTargetDependency */,
+			);
+			name = PlayVibrationTutorialTests;
+			productName = PlayVibrationTutorialTests;
+			productReference = 62539E8B1CABC40000BFB47F /* PlayVibrationTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62539E951CABC40000BFB47F /* PlayVibrationTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62539EA51CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorialUITests" */;
+			buildPhases = (
+				62539E921CABC40000BFB47F /* Sources */,
+				62539E931CABC40000BFB47F /* Frameworks */,
+				62539E941CABC40000BFB47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62539E981CABC40000BFB47F /* PBXTargetDependency */,
+			);
+			name = PlayVibrationTutorialUITests;
+			productName = PlayVibrationTutorialUITests;
+			productReference = 62539E961CABC40000BFB47F /* PlayVibrationTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62539E6F1CABC40000BFB47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李坚武";
+				TargetAttributes = {
+					62539E761CABC40000BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+					};
+					62539E8A1CABC40000BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 62539E761CABC40000BFB47F;
+					};
+					62539E951CABC40000BFB47F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 62539E761CABC40000BFB47F;
+					};
+				};
+			};
+			buildConfigurationList = 62539E721CABC40000BFB47F /* Build configuration list for PBXProject "PlayVibrationTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62539E6E1CABC40000BFB47F;
+			productRefGroup = 62539E781CABC40000BFB47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62539E761CABC40000BFB47F /* PlayVibrationTutorial */,
+				62539E8A1CABC40000BFB47F /* PlayVibrationTutorialTests */,
+				62539E951CABC40000BFB47F /* PlayVibrationTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62539E751CABC40000BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E851CABC40000BFB47F /* LaunchScreen.storyboard in Resources */,
+				62539E821CABC40000BFB47F /* Assets.xcassets in Resources */,
+				62539E801CABC40000BFB47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E891CABC40000BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E941CABC40000BFB47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62539E731CABC40000BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E7D1CABC40000BFB47F /* ViewController.swift in Sources */,
+				62539E7B1CABC40000BFB47F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E871CABC40000BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E901CABC40000BFB47F /* PlayVibrationTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62539E921CABC40000BFB47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62539E9B1CABC40000BFB47F /* PlayVibrationTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62539E8D1CABC40000BFB47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62539E761CABC40000BFB47F /* PlayVibrationTutorial */;
+			targetProxy = 62539E8C1CABC40000BFB47F /* PBXContainerItemProxy */;
+		};
+		62539E981CABC40000BFB47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62539E761CABC40000BFB47F /* PlayVibrationTutorial */;
+			targetProxy = 62539E971CABC40000BFB47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62539E7E1CABC40000BFB47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62539E7F1CABC40000BFB47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62539E831CABC40000BFB47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62539E841CABC40000BFB47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62539E9D1CABC40000BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62539E9E1CABC40000BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62539EA01CABC40000BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayVibrationTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62539EA11CABC40000BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayVibrationTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62539EA31CABC40000BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayVibrationTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVibrationTutorial.app/PlayVibrationTutorial";
+			};
+			name = Debug;
+		};
+		62539EA41CABC40000BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayVibrationTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayVibrationTutorial.app/PlayVibrationTutorial";
+			};
+			name = Release;
+		};
+		62539EA61CABC40000BFB47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayVibrationTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayVibrationTutorial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62539EA71CABC40000BFB47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayVibrationTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gdql.PlayVibrationTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayVibrationTutorial;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62539E721CABC40000BFB47F /* Build configuration list for PBXProject "PlayVibrationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539E9D1CABC40000BFB47F /* Debug */,
+				62539E9E1CABC40000BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62539E9F1CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539EA01CABC40000BFB47F /* Debug */,
+				62539EA11CABC40000BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62539EA21CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539EA31CABC40000BFB47F /* Debug */,
+				62539EA41CABC40000BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62539EA51CABC40000BFB47F /* Build configuration list for PBXNativeTarget "PlayVibrationTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62539EA61CABC40000BFB47F /* Debug */,
+				62539EA71CABC40000BFB47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62539E6F1CABC40000BFB47F /* Project object */;
+}
